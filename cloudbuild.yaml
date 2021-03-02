@@ -6,5 +6,5 @@ steps:
   dir: 'function/dir/from/repo/root'
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', 'testFunction', '--trigger-http', '--runtime', 'go113', '--entry-point', 'StartApplication']
-  dir: 'function/dir/from/repo/root'
+  dir: 'HelloWorldGoApp/src'
 
