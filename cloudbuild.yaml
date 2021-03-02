@@ -2,10 +2,17 @@ steps:
 #step 0 - go version
 - name: 'mirror.gcr.io/library/golang'
   args: ['go', 'version']
-  #step 1 - Test
+ 
+ #step 1 - init mod
 - name: 'mirror.gcr.io/library/golang'
-  args: ['go', 'build', '.']
+  args: ['go', 'mod', 'init']
   dir: 'HelloWorldGoApp/src'
+  
+  #step 2 - Test
+- name: 'mirror.gcr.io/library/golang'
+  args: ['go', 'test']
+  dir: 'HelloWorldGoApp/src'
+  
   # step 3 - Deploy
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', 'testFunction', '--trigger-http', '--runtime', 'go113', '--entry-point', 'StartApplication']
