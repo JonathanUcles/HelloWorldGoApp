@@ -6,15 +6,15 @@ steps:
  #step 1 - init mod
 - name: 'mirror.gcr.io/library/golang'
   args: ['go', 'mod', 'init']
-  dir: 'HelloWorldGoApp/src'
+  dir: 'HelloWorldGoApp'
   
   #step 2 - Test
 - name: 'mirror.gcr.io/library/golang'
   args: ['go', 'test']
-  dir: 'HelloWorldGoApp/src'
+  dir: 'HelloWorldGoApp'
   
   # step 3 - Deploy
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', 'testFunction', '--trigger-http', '--runtime', 'go113', '--entry-point', 'StartApplication']
-  dir: 'HelloWorldGoApp/src'
+  dir: 'HelloWorldGoApp'
 
