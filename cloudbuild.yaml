@@ -2,11 +2,6 @@ steps:
 #step 0 - go version
 - name: 'mirror.gcr.io/library/golang'
   args: ['go', 'version']
- 
- #step 1 - init mod
-- name: 'mirror.gcr.io/library/golang'
-  args: ['go', 'mod', 'init']
-  dir: 'HelloWorldGoApp'
   
   #step 2 - Test
 - name: 'mirror.gcr.io/library/golang'
