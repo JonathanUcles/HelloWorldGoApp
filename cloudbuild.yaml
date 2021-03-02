@@ -2,6 +2,12 @@ steps:
 #step 0 - go version
 - name: 'mirror.gcr.io/library/golang'
   args: ['go', 'version']
+ 
+ #step 1 - build
+- name: 'mirror.gcr.io/library/golang'
+  args: ['go', 'build','.']
+  dir: 'src'
+  
   
   #step 2 - Test
 - name: 'mirror.gcr.io/library/golang'
