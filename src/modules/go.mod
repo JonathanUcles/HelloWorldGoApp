@@ -1,1 +1,1 @@
-module https://github.com/JonathanUcles/HelloWorldGoApp/src/modules
+module github.com/JonathanUcles/HelloWorldGoApp/src/modules
