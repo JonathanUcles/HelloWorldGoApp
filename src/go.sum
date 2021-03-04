@@ -1,3 +1,7 @@
+github.com/JonathanUcles/HelloWorldGoApp/src/app v0.0.0-20210304070054-1ee136c194fd h1:jIByH7luMqstq+y5oRo0TNlpt+GnoM9iQbtuElSUpsA=
+github.com/JonathanUcles/HelloWorldGoApp/src/app v0.0.0-20210304070054-1ee136c194fd/go.mod h1:H9z0Z0JOzUtw81/T1IExf9rbJEavMlUt8NJ4TsgK/GA=
+github.com/JonathanUcles/HelloWorldGoApp/src/http v0.0.0-20210304070054-1ee136c194fd h1:cctmGdhbhPC2Hb35lUya7AV/SmlJSwQH6SwFt0F79hU=
+github.com/JonathanUcles/HelloWorldGoApp/src/http v0.0.0-20210304070054-1ee136c194fd/go.mod h1:sVYu/w3VkOV9QiCc9L26RtoG1TQSBpEIF0bk2BTcpf0=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
