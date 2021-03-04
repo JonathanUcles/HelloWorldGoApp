@@ -1,4 +1,4 @@
-module main
+module github.com/JonathanUcles/HelloWorldGoApp/src
 
 go 1.16
 
