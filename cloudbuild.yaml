@@ -12,7 +12,7 @@ steps:
   #step 2 - Test
 - name: 'mirror.gcr.io/library/golang'
   args: ['go', 'test']
-  dir: 'src/modules'
+  dir: 'src'
   
   # step 3 - Deploy
 - name: 'gcr.io/cloud-builders/gcloud'
