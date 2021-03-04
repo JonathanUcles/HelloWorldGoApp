@@ -16,6 +16,6 @@ steps:
   
   # step 3 - Deploy
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'testFunction', '--trigger-http', '--runtime', 'go113', '--entry-point', 'StartApplication']
+  args: ['functions', 'deploy', 'testFunction', '--trigger-http', '--runtime', 'go113', '--entry-point', 'main']
   dir: 'src'
 

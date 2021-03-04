@@ -2,7 +2,7 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/mannyju/HelloWorldGoApp/src/http"
+	"github.com/JonathanUcles/HelloWorldGoApp/src/http"
 )
 
 var (

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/mannyju/HelloWorldGoApp/src/app"
+import "github.com/JonathanUcles/HelloWorldGoApp/src/app"
 
 func main() {
 	app.StartApplication()
