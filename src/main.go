@@ -1,4 +1,4 @@
-package github.com/JonathanUcles/HelloWorldGoApp/src
+package main
 
 import "github.com/JonathanUcles/HelloWorldGoApp/src/app"
 
